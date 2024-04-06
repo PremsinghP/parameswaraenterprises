@@ -1427,12 +1427,11 @@ th, td {
   text-align: left;
   border-bottom: 1px solid #dee2e6;
   color: black; /* Set text color to black */
-
 }
 
 th {
   background-color: #007bff;
-  color: black;
+  color: black; /* Set text color to black */
   font-weight: bold;
 }
 
