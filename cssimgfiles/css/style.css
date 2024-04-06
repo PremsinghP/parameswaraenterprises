@@ -1484,7 +1484,7 @@ h5 a:hover { color: inherit; }
 /* Responsive Styles */
 
 /* For Tablet View */
-@media (max-width: 992px) {
+@media (max-width: 768px) {
   .container1 {
     width: 90%; /* Adjusted width for better display on tablet */
     margin: 15px auto; /* Adjusted margin for better spacing */
@@ -1502,7 +1502,7 @@ h5 a:hover { color: inherit; }
 }
 
 /* For Mobile View */
-@media (max-width: 768px) {
+@media (max-width: 576px) {
   .container1 {
     width: 95%; /* Adjusted width for better display on mobile */
     margin: 10px auto; /* Adjusted margin for better spacing */
@@ -1518,4 +1518,3 @@ h5 a:hover { color: inherit; }
     font-size: 12px; /* Adjusted font size for better readability */
   }
 }
-
