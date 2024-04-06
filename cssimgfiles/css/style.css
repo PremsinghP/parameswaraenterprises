@@ -54,6 +54,16 @@ a.border-button {
 	transition: all 0.3s;
 }
 
+.images {
+  display: block;
+  margin: 0 auto; /* Center the image horizontally */
+  max-width: 100%; /* Ensure image does not exceed its container's width */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 10px; /* Add rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+
 a.border-button:hover {
 	background-color: #fff;
 	color: #a4c639;
@@ -1499,6 +1509,15 @@ h5 a:hover { color: inherit; }
     padding: 10px 12px; /* Adjusted padding for better spacing */
     font-size: 14px; /* Adjusted font size for better readability */
   }
+	.images {
+  display: block;
+  margin: 0 auto; /* Center the image horizontally */
+  max-width: 100%; /* Ensure image does not exceed its container's width */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 10px; /* Add rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
 }
 
 /* For Mobile View */
@@ -1517,4 +1536,13 @@ h5 a:hover { color: inherit; }
     padding: 8px 10px; /* Adjusted padding for better spacing */
     font-size: 12px; /* Adjusted font size for better readability */
   }
+	.images {
+  display: block;
+  margin: 0 auto; /* Center the image horizontally */
+  max-width: 100%; /* Ensure image does not exceed its container's width */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 10px; /* Add rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
 }
