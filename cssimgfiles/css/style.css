@@ -1357,19 +1357,6 @@ footer .contact-form button.filled-button:hover {
 		margin-bottom: 30px;
 	}
 
-	  .container1 {
-	    width: 95%; /* Adjusted width for better display on mobile */
-	    margin: 10px auto; /* Adjusted margin for better spacing */
-	    padding: 10px; /* Adjusted padding for better spacing */
-	  }
-	
-	  .container1 h2 {
-	    font-size: 20px; /* Adjusted font size for better readability */
-	  }
-	
-	  th, td {
-	    padding: 8px 10px; /* Adjusted padding for better spacing */
-	  }
 }
 
 @media (max-width: 992px) {
@@ -1412,21 +1399,6 @@ footer .contact-form button.filled-button:hover {
 		color: #a4c639!important;
 		border-bottom: none!important;
 	}
-
-	  .container1 {
-	    width: 90%; /* Adjusted width for better display on tablet */
-	    margin: 15px auto; /* Adjusted margin for better spacing */
-	    padding: 15px; /* Adjusted padding for better spacing */
-	  }
-	
-	  .container1 h2 {
-	    font-size: 24px; /* Adjusted font size for better readability */
-	  }
-	
-	  th, td {
-	    padding: 10px 12px; /* Adjusted padding for better spacing */
-	  }
-
 }
 
 h5 a { color: #a4c639; } 
