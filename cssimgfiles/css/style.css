@@ -1413,52 +1413,62 @@ h5 a:hover { color: inherit; }
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
 
+/* Modified Code */
+.container1 {
+  width: 80%;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
 .container1 h2 {
   text-align: center;
   color: #007bff;
 }
 
-table {
+.container1 table {
   width: 100%;
   border-collapse: collapse;
 }
 
-th, td {
+.container1 th, .container1 td {
   padding: 12px 15px;
   text-align: left;
   border-bottom: 1px solid #dee2e6;
   color: black; /* Set text color to black */
 }
 
-th {
+.container1 th {
   background-color: #007bff;
   color: black; /* Set text color to black */
   font-weight: bold;
 }
 
-tr:nth-child(even) {
+.container1 tr:nth-child(even) {
   background-color: #f2f2f2;
 }
 
-tr:hover {
+.container1 tr:hover {
   background-color: #e2e6ea;
 }
 
-p {
+.container1 p {
   text-align: center;
   margin-top: 20px;
 }
 
-a {
+.container1 a {
   color: #007bff;
   text-decoration: none;
 }
 
-a:hover {
+.container1 a:hover {
   text-decoration: underline;
 }
 
-.apply-button {
+.container1 .apply-button {
   background-color: #007bff;
   color: #fff;
   border: none;
@@ -1467,8 +1477,45 @@ a:hover {
   cursor: pointer;
 }
 
-.apply-button:hover {
+.container1 .apply-button:hover {
   background-color: #0056b3;
 }
 
+/* Responsive Styles */
+
+/* For Tablet View */
+@media (max-width: 992px) {
+  .container1 {
+    width: 90%; /* Adjusted width for better display on tablet */
+    margin: 15px auto; /* Adjusted margin for better spacing */
+    padding: 15px; /* Adjusted padding for better spacing */
+  }
+
+  .container1 h2 {
+    font-size: 24px; /* Adjusted font size for better readability */
+  }
+
+  .container1 th, .container1 td {
+    padding: 10px 12px; /* Adjusted padding for better spacing */
+    font-size: 14px; /* Adjusted font size for better readability */
+  }
+}
+
+/* For Mobile View */
+@media (max-width: 768px) {
+  .container1 {
+    width: 95%; /* Adjusted width for better display on mobile */
+    margin: 10px auto; /* Adjusted margin for better spacing */
+    padding: 10px; /* Adjusted padding for better spacing */
+  }
+
+  .container1 h2 {
+    font-size: 20px; /* Adjusted font size for better readability */
+  }
+
+  .container1 th, .container1 td {
+    padding: 8px 10px; /* Adjusted padding for better spacing */
+    font-size: 12px; /* Adjusted font size for better readability */
+  }
+}
 
