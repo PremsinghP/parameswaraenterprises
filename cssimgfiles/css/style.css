@@ -1412,7 +1412,7 @@ h5 a:hover { color: inherit; }
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
 
-h2 {
+.container1 h2 {
   text-align: center;
   color: #007bff;
 }
